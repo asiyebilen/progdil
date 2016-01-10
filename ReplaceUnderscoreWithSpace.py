@@ -1,7 +1,7 @@
 import sys
 
-def ReplaceUnderscoreWithSpace(p_Dil):
-	liste = list(p_Dil)
+def ReplaceUnderscoreWithSpace(p_Kelime):
+	liste = list(p_Kelime)
 	newstr = ""
 	for i in range(len(liste)):
 		if i == 0:
